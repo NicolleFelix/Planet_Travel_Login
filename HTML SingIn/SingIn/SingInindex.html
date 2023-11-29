@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SingIn</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body background="./assets/images/background-login.jpg">
+    <div class="titulo">
+       <h2> Planet Travel</h2>
+    </div>
+    <div class='container'>
+        <div class='card'>
+          <h1> Bem vindo! </h1>
+<div id="msgError"></div>
+          
+          <div class='label-float'>
+            <input type='text' id='email' placeholder='' required>
+            <label id="emailLabel" for='email'>Email</label>
+          </div>
+          <div class='label-float'>
+            <input type='password' id='senha' placeholder='' required>
+            <label id="senhaLabel" for='senha'>Senha</label>
+            <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+          </div>
+          
+          <div class='justify-center'>
+            <button id="entrar" onclick="entrar()">Entrar</button>
+          </div>
+          
+          <div>
+            <hr>
+          </div>
+          
+          <p>Não tem uma conta?
+            <a href='http://127.0.0.1:5501/SingUp/SingUpindex.html'>Cadastra-se</a></p>
+        </div>   
+</body>
+<script src="js/script.js"></script>
+</html>
